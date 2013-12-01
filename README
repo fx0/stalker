@@ -1,0 +1,39 @@
+#CREDITS
+
+Entire program coded by Pau Muñoz grayfx0@gmail.com | lapipaplena.net
+That program was wrote to proof the fact that a lot of people, post everything about his/her life on social networks. That information can be easily downloaded and
+processed by an automated script.
+
+#LICENSE
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+#INSTRUCTIONS#
+
+#TESTED ON BACKTRACK 5R3 and KALI LINUX
+
+#INSTALL PYGMAPS LIBRARY, LOCATED ON THE LIBRARY FOLDER, INSTALL IT VIA SETUP.PY
+
+#MAKE SURE YOU HAVE THE FOLLOWING LIBRARIES
+requests,urllib,urllib2,ftplib,re,sys,getopt,os,zipfile,pygmaps,cStringIO,json
+
+#USAGE
+
+./stalker.py -u user@mail.com -p facebookpassword -l www.facebook.com/victimprofile
+./stalker.py -u user@mail.com -p facebookpassword -l www.facebook.com/victimprofile -i ftpaddress -U ftpuser -P ftppass
+
+#OPTIONAL
+
+-i ftp server adress to send the report
+
+-U ftp server user
+
+-P ftp server password
